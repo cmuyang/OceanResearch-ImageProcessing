@@ -1,12 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using OceanResearch.API.DTOs;
-using OceanTeseach.API.Data;
-using OceanTeseach.API.DTOs;
-using OceanTeseach.API.Services;
-using OceanTeseach.API.Models;
+using OceanResearch.API.Data;
+using OceanResearch.API.DTOs;
+using OceanResearch.API.Services;
+using OceanResearch.API.Models;
 
-namespace OceanTeseach.API.Controllers
+namespace OceanResearch.API.Controllers
 {
     [ApiController]//API控制器
     [Route("api/[controller]")]//定义路由模板，[controller]会被替换为“Auth”

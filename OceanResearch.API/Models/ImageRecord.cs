@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace OceanTeseach.API.Models
+namespace OceanResearch.API.Models
 {
     public class ImageRecord
     {

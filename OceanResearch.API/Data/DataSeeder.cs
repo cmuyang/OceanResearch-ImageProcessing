@@ -1,9 +1,9 @@
 ﻿using System;
 using System.IO;
 using System.Linq;
-using OceanTeseach.API.Models;
+using OceanResearch.API.Models;
 
-namespace OceanTeseach.API.Data
+namespace OceanResearch.API.Data
 {
     public static class DataSeeder
     {

@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
-using OceanTeseach.API.Data;
-using OceanTeseach.API.Services;
+using OceanResearch.API.Data;
+using OceanResearch.API.Services;
 using System.Reflection;
 using System.Text;
 

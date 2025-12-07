@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using OceanTeseach.API.Models;
+using OceanResearch.API.Models;
 
-namespace OceanTeseach.API.Data
+namespace OceanResearch.API.Data
 {
     public class AppDbContext : DbContext
     {

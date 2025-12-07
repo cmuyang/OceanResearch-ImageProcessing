@@ -1,6 +1,6 @@
-﻿using OceanTeseach.API.Models;
+﻿using OceanResearch.API.Models;
 
-namespace OceanTeseach.API.Services
+namespace OceanResearch.API.Services
 {
     public interface IJwtService
     {

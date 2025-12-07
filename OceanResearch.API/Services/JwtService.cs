@@ -4,9 +4,9 @@ using System.Security.Claims;
 using System.Text;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
-using OceanTeseach.API.Models;
+using OceanResearch.API.Models;
 
-namespace OceanTeseach.API.Services
+namespace OceanResearch.API.Services
 {
     public class JwtService : IJwtService
     {

@@ -3,7 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using OceanTeseach.API.Data;
+using OceanResearch.API.Data;
 
 #nullable disable
 
@@ -17,7 +17,7 @@ namespace OceanResearch.API.Migrations
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "9.0.11");
 
-            modelBuilder.Entity("OceanTeseach.API.Models.ImageRecord", b =>
+            modelBuilder.Entity("OceanResearch.API.Models.ImageRecord", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -43,7 +43,7 @@ namespace OceanResearch.API.Migrations
                     b.ToTable("Images");
                 });
 
-            modelBuilder.Entity("OceanTeseach.API.Models.Selection", b =>
+            modelBuilder.Entity("OceanResearch.API.Models.Selection", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -53,25 +53,21 @@ namespace OceanResearch.API.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("TEXT");
+
                     b.Property<int>("ImageId")
                         .HasColumnType("INTEGER");
-
-                    b.Property<DateTime>("Timestamp")
-                        .HasColumnType("TEXT");
 
                     b.Property<int>("UserId")
                         .HasColumnType("INTEGER");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ImageId");
-
-                    b.HasIndex("UserId");
-
                     b.ToTable("Selections");
                 });
 
-            modelBuilder.Entity("OceanTeseach.API.Models.User", b =>
+            modelBuilder.Entity("OceanResearch.API.Models.User", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -94,25 +90,6 @@ namespace OceanResearch.API.Migrations
                         .IsUnique();
 
                     b.ToTable("Users");
-                });
-
-            modelBuilder.Entity("OceanTeseach.API.Models.Selection", b =>
-                {
-                    b.HasOne("OceanTeseach.API.Models.ImageRecord", "Image")
-                        .WithMany()
-                        .HasForeignKey("ImageId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("OceanTeseach.API.Models.User", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Image");
-
-                    b.Navigation("User");
                 });
 #pragma warning restore 612, 618
         }

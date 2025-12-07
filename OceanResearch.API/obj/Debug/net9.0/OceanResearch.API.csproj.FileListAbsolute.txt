@@ -194,3 +194,4 @@ D:\0大四\.net\finallab\GLM\OceanResearch.API\bin\Debug\net9.0\runtimes\win-arm
 D:\0大四\.net\finallab\GLM\OceanResearch.API\bin\Debug\net9.0\runtimes\win-arm64\native\e_sqlite3.dll
 D:\0大四\.net\finallab\GLM\OceanResearch.API\bin\Debug\net9.0\runtimes\win-x64\native\e_sqlite3.dll
 D:\0大四\.net\finallab\GLM\OceanResearch.API\bin\Debug\net9.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\0大四\.net\finallab\GLM\OceanResearch.API\obj\Debug\net9.0\OceanResearch.API.sourcelink.json

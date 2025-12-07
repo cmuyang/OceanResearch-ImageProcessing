@@ -47,9 +47,9 @@
             // 
             // btnLogin
             // 
-            btnLogin.Location = new Point(286, 293);
+            btnLogin.Location = new Point(276, 293);
             btnLogin.Name = "btnLogin";
-            btnLogin.Size = new Size(138, 40);
+            btnLogin.Size = new Size(145, 40);
             btnLogin.TabIndex = 3;
             btnLogin.Text = "登录";
             btnLogin.UseVisualStyleBackColor = true;

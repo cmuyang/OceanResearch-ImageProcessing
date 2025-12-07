@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace OceanTeseach.API.Models
+namespace OceanResearch.API.Models
 {
     public class User
     {

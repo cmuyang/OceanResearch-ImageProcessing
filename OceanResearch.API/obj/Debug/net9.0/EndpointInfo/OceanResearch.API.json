@@ -122,7 +122,7 @@
         }
       }
     },
-    "/api/Selections": {
+    "/api/Selections/bulk": {
       "post": {
         "tags": [
           "Selections"
@@ -131,17 +131,26 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/SelectionDto"
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/SelectionDto"
+                }
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/SelectionDto"
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/SelectionDto"
+                }
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/SelectionDto"
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/SelectionDto"
+                }
               }
             }
           }

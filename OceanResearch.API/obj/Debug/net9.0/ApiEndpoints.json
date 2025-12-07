@@ -1,6 +1,6 @@
 [
   {
-    "ContainingType": "OceanTeseach.API.Controllers.AuthController",
+    "ContainingType": "OceanResearch.API.Controllers.AuthController",
     "Method": "Login",
     "RelativePath": "api/Auth/login",
     "HttpMethod": "POST",
@@ -16,7 +16,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "OceanTeseach.API.Controllers.AuthController",
+    "ContainingType": "OceanResearch.API.Controllers.AuthController",
     "Method": "Register",
     "RelativePath": "api/Auth/register",
     "HttpMethod": "POST",
@@ -32,7 +32,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "OceanTeseach.API.Controllers.ImagesController",
+    "ContainingType": "OceanResearch.API.Controllers.ImagesController",
     "Method": "GetImages",
     "RelativePath": "api/Images",
     "HttpMethod": "GET",
@@ -53,7 +53,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "OceanTeseach.API.Controllers.ImagesController",
+    "ContainingType": "OceanResearch.API.Controllers.ImagesController",
     "Method": "GetImageBase64",
     "RelativePath": "api/Images/{id}/base64",
     "HttpMethod": "GET",
@@ -69,16 +69,16 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "OceanTeseach.API.Controllers.SelectionsController",
-    "Method": "SubmitSelection",
-    "RelativePath": "api/Selections",
+    "ContainingType": "OceanResearch.API.Controllers.SelectionsController",
+    "Method": "PostBulk",
+    "RelativePath": "api/Selections/bulk",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "dto",
-        "Type": "OceanTeseach.API.DTOs.SelectionDto",
+        "Name": "items",
+        "Type": "System.Collections.Generic.List\u00601[[OceanResearch.API.Controllers.SelectionsController\u002BSelectionDto, OceanResearch.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "IsRequired": true
       }
     ],

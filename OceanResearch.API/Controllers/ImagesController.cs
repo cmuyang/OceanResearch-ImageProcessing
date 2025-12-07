@@ -1,10 +1,11 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using OceanTeseach.API.Data;
-using OceanTeseach.API.DTOs;
+using OceanResearch.API.Data;
+using OceanResearch.API.DTOs;
+using System.Security.Claims;
 
-namespace OceanTeseach.API.Controllers
+namespace OceanResearch.API.Controllers
 {
     [ApiController]
     [Authorize]//所有请求必须通过身份验证，需要有效的jwt令牌
@@ -16,19 +17,38 @@ namespace OceanTeseach.API.Controllers
         public ImagesController(AppDbContext db) { _db = db; }
         // 处理获取图像列表的GET请求，路由为 api/images
         [HttpGet]
-        public async Task<IActionResult> GetImages(int page = 1, int pageSize = 10)
+        [Authorize]
+        public async Task<IActionResult> GetImages([FromQuery] int page = 1, [FromQuery] int pageSize = 10)
         {
-            if (page < 1) page = 1;
-            if (pageSize < 1 || pageSize > 50) pageSize = 10;
-            // 从数据库查询图像数据
+            var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (string.IsNullOrEmpty(userIdClaim)) return Forbid();
+            var uid = int.Parse(userIdClaim);
+
             var items = await _db.Images
                 .OrderBy(i => i.Id)
                 .Skip((page - 1) * pageSize)
                 .Take(pageSize)
-                .Select(i => new ImageDto { Id = i.Id, FileName = i.FileName, Url = i.Url, Metadata = i.Metadata })
                 .ToListAsync();
 
-            return Ok(items);
+            var imageIds = items.Select(i => i.Id).ToList();
+            var selections = await _db.Selections
+                .Where(s => s.UserId == uid && imageIds.Contains(s.ImageId))
+                .ToListAsync();
+
+            var dtos = items.Select(i =>
+            {
+                var sel = selections.FirstOrDefault(s => s.ImageId == i.Id);
+                return new ImageDto
+                {
+                    Id = i.Id,
+                    FileName = i.FileName,
+                    Url = i.Url,
+                    Metadata = i.Metadata,
+                    SelectedChoice = sel?.Choice
+                };
+            }).ToList();
+
+            return Ok(dtos);
         }
         // 处理获取特定图像Base64数据的GET请求，路由为 api/images/{id}/base64--------------------------------
         [HttpGet("{id}/base64")]

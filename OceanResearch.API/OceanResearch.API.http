@@ -1,0 +1,6 @@
+@OceanResearch.API_HostAddress = http://localhost:5029
+
+GET {{OceanResearch.API_HostAddress}}
+Accept: application/json
+
+###

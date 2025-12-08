@@ -26,7 +26,10 @@ namespace OceanResearch.API.Models
         public int Id { get; set; }
         public int ImageId { get; set; }          // 对应 ImageRecord.Id
         public int UserId { get; set; }        // 登录用户标识（可用 username 或 user id）
-        public string Choice { get; set; }        // 例如 "最清晰" / "剔除"
+        public string? Metadata { get; set; }     // 存储图片标识，如 "文件夹名/文件名"
+        public bool IsClearest { get; set; }      // 是否标记为"最清晰"
+        public bool HasResearchValue { get; set; } // 是否标记为"有研究价值"
+        public bool ShouldRemove { get; set; }    // 是否标记为"剔除"  
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
     }
 }

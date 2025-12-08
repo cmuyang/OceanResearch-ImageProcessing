@@ -76,8 +76,6 @@ namespace OceanResearch.API.Controllers
                 Username = user.Username,
                 UserId = user.Id
             });
-            // 返回200成功状态
-            return Ok();
         }
     }
 }

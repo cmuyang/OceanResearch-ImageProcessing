@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.FileProviders;
 using Microsoft.IdentityModel.Tokens;
 using OceanResearch.API.Data;
 using OceanResearch.API.Services;
@@ -49,6 +50,17 @@ if (!Directory.Exists(Path.Combine(Directory.GetCurrentDirectory(), "wwwroot")))
 
 // Serve static files for images
 app.UseStaticFiles();
+
+// Serve static files for uieb-instances folder
+var uiebInstancesPath = Path.Combine(builder.Environment.ContentRootPath, "..", "uieb-instances");
+if (Directory.Exists(uiebInstancesPath))
+{
+    app.UseStaticFiles(new StaticFileOptions
+    {
+        FileProvider = new Microsoft.Extensions.FileProviders.PhysicalFileProvider(uiebInstancesPath),
+        RequestPath = "/uieb-instances"
+    });
+}
 
 if (app.Environment.IsDevelopment())
 {

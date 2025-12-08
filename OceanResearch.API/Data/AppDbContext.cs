@@ -10,6 +10,7 @@ namespace OceanResearch.API.Data
         public DbSet<User> Users { get; set; }
         public DbSet<ImageRecord> Images { get; set; }
         public DbSet<Selection> Selections { get; set; }
+        public DbSet<UserProgress> UserProgresses { get; set; }
         // 重写OnModelCreating方法，用于配置数据模型和数据库映射
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

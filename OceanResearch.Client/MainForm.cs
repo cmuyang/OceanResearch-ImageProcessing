@@ -21,7 +21,6 @@ namespace OceanReseach.Client
         // 保存每张图片的选中状态，key: 图片索引（1-10），value: 是否选中
         private Dictionary<int, bool> imageSelections = new Dictionary<int, bool>();
 
-        private readonly string[] _choices = new[] { "未选择", "最清晰", "研究价值高", "剔除" };
 
         public MainForm(string jwtToken, string apiBase)
         {
@@ -42,7 +41,35 @@ namespace OceanReseach.Client
 
         private async void MainForm_Load(object? sender, EventArgs e)
         {
+            // 先获取用户进度
+            await LoadProgressAsync();
             await LoadPageAsync();
+        }
+
+        private async Task LoadProgressAsync()
+        {
+            try
+            {
+                var res = await _client.GetAsync("api/images/progress");
+                if (res.IsSuccessStatusCode)
+                {
+                    var progress = await res.Content.ReadFromJsonAsync<ProgressDto>();
+                    if (progress != null && progress.CurrentPage > 0)
+                    {
+                        _page = progress.CurrentPage;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                // 如果获取进度失败，从第一页开始
+                _page = 1;
+            }
+        }
+
+        private class ProgressDto
+        {
+            public int CurrentPage { get; set; }
         }
 
         private async Task LoadPageAsync()
@@ -79,13 +106,53 @@ namespace OceanReseach.Client
         {
             var pictureBoxes = new[] { pictureBox1, pictureBox2, pictureBox3, pictureBox4, pictureBox5, pictureBox6, pictureBox7, pictureBox8, pictureBox9, pictureBox10 };
             var combos = new[] { comboChoice1, comboChoice2, comboChoice3, comboChoice4, comboChoice5, comboChoice6, comboChoice7, comboChoice8, comboChoice9, comboChoice10 };
+            var panels = new[] { panel1, panel2, panel3, panel4, panel5, panel6, panel7, panel8, panel9, panel10 };
+
+            // 清除所有"最清晰"标记
+            foreach (var pb in pictureBoxes)
+            {
+                SetPictureSelectedVisual(pb, false);
+            }
 
             for (int i = 0; i < _pageSize; i++)
             {
                 var combo = combos[i];
-                combo.Items.Clear();
-                combo.Items.AddRange(_choices);
-                combo.SelectedIndex = 0;
+                var panel = panels[i];
+                
+                // 隐藏不再使用的下拉框
+                combo.Visible = false;
+                
+                // 清除旧的动态控件
+                var oldControls = panel.Controls.OfType<CheckBox>().ToList();
+                foreach (var ctrl in oldControls)
+                {
+                    panel.Controls.Remove(ctrl);
+                    ctrl.Dispose();
+                }
+
+                // 创建复选框控件（放在原来下拉框的位置）
+                var chkResearch = new CheckBox
+                {
+                    Text = "有研究价值",
+                    AutoSize = true,
+                    Location = new Point(combo.Location.X, combo.Location.Y),
+                    Tag = i,
+                    Name = $"chkResearch{i + 1}"
+                };
+
+                var chkRemove = new CheckBox
+                {
+                    Text = "剔除",
+                    AutoSize = true,
+                    Location = new Point(combo.Location.X + 120, combo.Location.Y),
+                    Tag = i,
+                    Name = $"chkRemove{i + 1}"
+                };
+
+                panel.Controls.Add(chkResearch);
+                panel.Controls.Add(chkRemove);
+                chkResearch.BringToFront();
+                chkRemove.BringToFront();
 
                 // 释放旧图像，避免内存泄漏
                 var oldImage = pictureBoxes[i].Image;
@@ -99,24 +166,16 @@ namespace OceanReseach.Client
                 {
                     var img = _currentImages[i];
                     pictureBoxes[i].Tag = img;
-                    // 在成功设置 pictureBoxes[i].Image 后或即便没有图片也设置视觉状态：
-                    var selectedChoice = img.SelectedChoice; // null 或 "最清晰"/"研究价值高"/"剔除"
-                    if (!string.IsNullOrEmpty(selectedChoice))
+                    
+                    // 设置"最清晰"标记
+                    if (img.IsClearest)
                     {
-                        // 把 combo 设为该值（如果 Combo 没有，先添加）
-                        if (!combos[i].Items.Contains(selectedChoice))
-                            combos[i].Items.Add(selectedChoice);
-                        combos[i].SelectedItem = selectedChoice;
+                        SetPictureSelectedVisual(pictureBoxes[i], true);
+                    }
 
-                        // 如果选项是“最清晰”，把图片视为“选中”
-                        bool isSelected = selectedChoice == "最清晰";
-                        SetPictureSelectedVisual(pictureBoxes[i], isSelected);
-                    }
-                    else
-                    {
-                        combos[i].SelectedIndex = 0; // "未选择"
-                        SetPictureSelectedVisual(pictureBoxes[i], false);
-                    }
+                    // 设置复选框状态
+                    chkResearch.Checked = img.HasResearchValue;
+                    chkRemove.Checked = img.ShouldRemove;
 
                     // 构建完整 URL
                     var fullUrl = new Uri(new Uri(_apiBase), img.Url.TrimStart('/')).ToString();
@@ -230,11 +289,7 @@ namespace OceanReseach.Client
         pictureBox6, pictureBox7, pictureBox8, pictureBox9, pictureBox10
     };
 
-            ComboBox[] combos =
-            {
-        comboChoice1, comboChoice2, comboChoice3, comboChoice4, comboChoice5,
-        comboChoice6, comboChoice7, comboChoice8, comboChoice9, comboChoice10
-    };
+            var panels = new[] { panel1, panel2, panel3, panel4, panel5, panel6, panel7, panel8, panel9, panel10 };
 
             var list = new List<object>();
             for (int i = 0; i < _pageSize; i++)
@@ -242,11 +297,25 @@ namespace OceanReseach.Client
                 var tag = pictureBoxes[i].Tag as ImageDto;
                 if (tag == null) continue;
 
-                var choice = combos[i].SelectedItem?.ToString() ?? "未选择";
-                // 我们只保存非 "未选择" 的项；如果想要保存“取消选择”也写入后端，可改逻辑
-                //if (choice == "未选择") continue;
+                // 获取"最清晰"状态
+                bool isClearest = pictureBoxes[i].BorderStyle == BorderStyle.Fixed3D;
 
-                list.Add(new { ImageId = tag.Id, Choice = choice });
+                // 获取复选框状态
+                var panel = panels[i];
+                var chkResearch = panel.Controls.OfType<CheckBox>().FirstOrDefault(c => c.Text == "有研究价值");
+                var chkRemove = panel.Controls.OfType<CheckBox>().FirstOrDefault(c => c.Text == "剔除");
+
+                bool hasResearchValue = chkResearch?.Checked ?? false;
+                bool shouldRemove = chkRemove?.Checked ?? false;
+
+                list.Add(new 
+                { 
+                    ImageId = tag.Id, 
+                    Metadata = tag.Metadata,
+                    IsClearest = isClearest,
+                    HasResearchValue = hasResearchValue,
+                    ShouldRemove = shouldRemove
+                });
             }
 
             if (list.Count == 0)
@@ -255,20 +324,10 @@ namespace OceanReseach.Client
                 return;
             }
 
-            //var resp = await _client.PostAsJsonAsync("api/selections/bulk", list);
-            //if (!resp.IsSuccessStatusCode)
-            //{
-            //    MessageBox.Show($"上报失败: {resp.StatusCode}", "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            //    return;
-            //}
-
-            //MessageBox.Show("提交成功！", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-            //// 重新加载当前页以获取最新持久化状态（后端会返回每张图片当前用户的 SelectedChoice）
-            //await LoadPageAsync();
             try
             {
-                var resp = await _client.PostAsJsonAsync("api/selections/bulk", list);
+                var url = $"api/selections/bulk?currentPage={_page}";
+                var resp = await _client.PostAsJsonAsync(url, list);
                 if (!resp.IsSuccessStatusCode)
                 {
                     var body = "";
@@ -276,7 +335,7 @@ namespace OceanReseach.Client
                     MessageBox.Show($"上报失败: {resp.StatusCode}\n{body}", "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
-                // 成功后刷新当前页（从后端获取最新 SelectedChoice 并重绘）
+                // 成功后刷新当前页（从后端获取最新状态并重绘）
                 await LoadPageAsync();
                 MessageBox.Show("提交并刷新成功！", "完成", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
@@ -339,23 +398,27 @@ namespace OceanReseach.Client
             if (!int.TryParse(name.Replace("pictureBox", ""), out int idx)) return;
             int i = idx - 1;
 
-            // 切换为“最清晰”或取消
-            var currentSelected = pb.BorderStyle == BorderStyle.Fixed3D; // 我们用 Fixed3D 表示已选
-            var newSel = !currentSelected;
-            SetPictureSelectedVisual(pb, newSel);
+            // 如果当前图片已经是"最清晰"，则取消
+            var currentSelected = pb.BorderStyle == BorderStyle.Fixed3D;
+            if (currentSelected)
+            {
+                SetPictureSelectedVisual(pb, false);
+                return;
+            }
 
-            // 同步 combo：如果选中把 combo 设为 "最清晰"，否则设为 "未选择"
-            var combos = new[] { comboChoice1, comboChoice2, comboChoice3, comboChoice4, comboChoice5,
-                         comboChoice6, comboChoice7, comboChoice8, comboChoice9, comboChoice10 };
-            if (newSel)
+            // 清除同一页其他图片的"最清晰"标记
+            var pictureBoxes = new[] { pictureBox1, pictureBox2, pictureBox3, pictureBox4, pictureBox5,
+                         pictureBox6, pictureBox7, pictureBox8, pictureBox9, pictureBox10 };
+            for (int j = 0; j < pictureBoxes.Length; j++)
             {
-                if (!combos[i].Items.Contains("最清晰")) combos[i].Items.Add("最清晰");
-                combos[i].SelectedItem = "最清晰";
+                if (j != i && pictureBoxes[j].BorderStyle == BorderStyle.Fixed3D)
+                {
+                    SetPictureSelectedVisual(pictureBoxes[j], false);
+                }
             }
-            else
-            {
-                combos[i].SelectedIndex = 0; // 未选择
-            }
+
+            // 设置当前图片为"最清晰"
+            SetPictureSelectedVisual(pb, true);
         }
 
         private void UpdatePictureBoxVisual(PictureBox pb, bool selected)
@@ -417,7 +480,9 @@ namespace OceanReseach.Client
         public string FileName { get; set; } = "";
         public string Url { get; set; } = "";
         public string Metadata { get; set; } = "";
-        public string? SelectedChoice { get; set; } // 来自后端，null 表示未选
+        public bool IsClearest { get; set; }      // 是否标记为"最清晰"
+        public bool HasResearchValue { get; set; } // 是否标记为"有研究价值"
+        public bool ShouldRemove { get; set; }    // 是否标记为"剔除"
     }
 
 }

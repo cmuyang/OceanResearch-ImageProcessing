@@ -69,6 +69,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "OceanResearch.API.Controllers.ImagesController",
+    "Method": "GetProgress",
+    "RelativePath": "api/Images/progress",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "OceanResearch.API.Controllers.SelectionsController",
     "Method": "PostBulk",
     "RelativePath": "api/Selections/bulk",
@@ -78,8 +88,13 @@
     "Parameters": [
       {
         "Name": "items",
-        "Type": "System.Collections.Generic.List\u00601[[OceanResearch.API.Controllers.SelectionsController\u002BSelectionDto, OceanResearch.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[OceanResearch.API.DTOs.SelectionDto, OceanResearch.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "IsRequired": true
+      },
+      {
+        "Name": "currentPage",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

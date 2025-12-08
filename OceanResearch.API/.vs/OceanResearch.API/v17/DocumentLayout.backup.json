@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Migrations\\20251208132527_Selection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20251208132527_Selection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|d:\\0\u5927\u56DB\\.net\\finallab\\glm\\oceanresearch.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|d:\\0\u5927\u56DB\\.net\\finallab\\glm\\oceanresearch.api\\migrations\\20251208124511_modify.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|solutionrelative:migrations\\20251208124511_modify.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|d:\\0\u5927\u56DB\\.net\\finallab\\glm\\oceanresearch.api\\models\\selection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|solutionrelative:models\\selection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|d:\\0\u5927\u56DB\\.net\\finallab\\glm\\oceanresearch.api\\wwwroot\\images\\pasted image 20250118003635.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
       "RelativeMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|solutionrelative:wwwroot\\images\\pasted image 20250118003635.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|d:\\0\u5927\u56DB\\.net\\finallab\\glm\\oceanresearch.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|d:\\0\u5927\u56DB\\.net\\finallab\\glm\\oceanresearch.api\\dtos\\selectiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -110,11 +118,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 23,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "LoginResponse.cs",
               "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\DTOs\\LoginResponse.cs",
               "RelativeDocumentMoniker": "DTOs\\LoginResponse.cs",
@@ -126,12 +134,46 @@
               "IsPinned": true
             },
             {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20251208132527_Selection.cs",
+              "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Migrations\\20251208132527_Selection.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251208132527_Selection.cs",
+              "ToolTip": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Migrations\\20251208132527_Selection.cs",
+              "RelativeToolTip": "Migrations\\20251208132527_Selection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T13:25:28.018Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "20251208124511_Modify.cs",
+              "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Migrations\\20251208124511_Modify.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251208124511_Modify.cs",
+              "ToolTip": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Migrations\\20251208124511_Modify.cs",
+              "RelativeToolTip": "Migrations\\20251208124511_Modify.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T12:45:12.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Pasted image 20250118003635.png",
               "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\wwwroot\\images\\Pasted image 20250118003635.png",
               "RelativeDocumentMoniker": "wwwroot\\images\\Pasted image 20250118003635.png",
@@ -142,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "20251207090818_AddSelectionsTable.cs",
               "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Migrations\\20251207090818_AddSelectionsTable.cs",
               "RelativeDocumentMoniker": "Migrations\\20251207090818_AddSelectionsTable.cs",
@@ -154,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "20251121142132_InitialCreate.Designer.cs",
               "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Migrations\\20251121142132_InitialCreate.Designer.cs",
               "RelativeDocumentMoniker": "Migrations\\20251121142132_InitialCreate.Designer.cs",
@@ -166,7 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "AppDbContextModelSnapshot.cs",
               "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Migrations\\AppDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Migrations\\AppDbContextModelSnapshot.cs",
@@ -178,7 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "OceanResearch.API.http",
               "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\OceanResearch.API.http",
               "RelativeDocumentMoniker": "OceanResearch.API.http",
@@ -190,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "20251121150455_RemoveBase64FromImageRecord.Designer.cs",
               "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Migrations\\20251121150455_RemoveBase64FromImageRecord.Designer.cs",
               "RelativeDocumentMoniker": "Migrations\\20251121150455_RemoveBase64FromImageRecord.Designer.cs",
@@ -202,7 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "20251121150455_RemoveBase64FromImageRecord.cs",
               "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Migrations\\20251121150455_RemoveBase64FromImageRecord.cs",
               "RelativeDocumentMoniker": "Migrations\\20251121150455_RemoveBase64FromImageRecord.cs",
@@ -214,7 +256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "OceanResearch.API.csproj",
               "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\OceanResearch.API.csproj",
               "RelativeDocumentMoniker": "OceanResearch.API.csproj",
@@ -226,7 +268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "20251121142132_InitialCreate.cs",
               "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Migrations\\20251121142132_InitialCreate.cs",
               "RelativeDocumentMoniker": "Migrations\\20251121142132_InitialCreate.cs",
@@ -238,7 +280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "ImageDto.cs",
               "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\DTOs\\ImageDto.cs",
               "RelativeDocumentMoniker": "DTOs\\ImageDto.cs",
@@ -250,7 +292,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "SelectionDto.cs",
               "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\DTOs\\SelectionDto.cs",
               "RelativeDocumentMoniker": "DTOs\\SelectionDto.cs",
@@ -262,7 +304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "LoginRequest.cs",
               "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\DTOs\\LoginRequest.cs",
               "RelativeDocumentMoniker": "DTOs\\LoginRequest.cs",
@@ -274,7 +316,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "JwtService.cs",
               "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Services\\JwtService.cs",
               "RelativeDocumentMoniker": "Services\\JwtService.cs",
@@ -286,7 +328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "IJwService.cs",
               "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Services\\IJwService.cs",
               "RelativeDocumentMoniker": "Services\\IJwService.cs",
@@ -298,7 +340,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "DataSeeder.cs",
               "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Data\\DataSeeder.cs",
               "RelativeDocumentMoniker": "Data\\DataSeeder.cs",
@@ -310,7 +352,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "SelectionsController.cs",
               "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Controllers\\SelectionsController.cs",
               "RelativeDocumentMoniker": "Controllers\\SelectionsController.cs",
@@ -318,24 +360,24 @@
               "RelativeToolTip": "Controllers\\SelectionsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T13:57:41.622Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-21T13:57:41.622Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAjwFAAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T13:27:12.082Z"
+              "WhenOpened": "2025-11-21T13:27:12.082Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "ImagesController.cs",
               "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Controllers\\ImagesController.cs",
               "RelativeDocumentMoniker": "Controllers\\ImagesController.cs",
@@ -347,7 +389,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "AuthController.cs",
               "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
@@ -359,7 +401,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -367,12 +409,11 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-21T13:01:52.661Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-21T13:01:52.661Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
@@ -384,7 +425,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Selection.cs",
               "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Models\\Selection.cs",
               "RelativeDocumentMoniker": "Models\\Selection.cs",
@@ -392,12 +433,11 @@
               "RelativeToolTip": "Models\\Selection.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAMwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T08:42:50.833Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-21T08:42:50.833Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "ImageRecord.cs",
               "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Models\\ImageRecord.cs",
               "RelativeDocumentMoniker": "Models\\ImageRecord.cs",
@@ -405,12 +445,11 @@
               "RelativeToolTip": "Models\\ImageRecord.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T08:42:32.954Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-21T08:42:32.954Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
@@ -419,14 +458,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-21T08:41:59.33Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

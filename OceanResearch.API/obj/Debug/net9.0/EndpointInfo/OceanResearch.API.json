@@ -99,6 +99,18 @@
         }
       }
     },
+    "/api/Images/progress": {
+      "get": {
+        "tags": [
+          "Images"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Images/{id}/base64": {
       "get": {
         "tags": [
@@ -126,6 +138,16 @@
       "post": {
         "tags": [
           "Selections"
+        ],
+        "parameters": [
+          {
+            "name": "currentPage",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
         ],
         "requestBody": {
           "content": {
@@ -186,9 +208,18 @@
             "type": "integer",
             "format": "int32"
           },
-          "choice": {
+          "metadata": {
             "type": "string",
             "nullable": true
+          },
+          "isClearest": {
+            "type": "boolean"
+          },
+          "hasResearchValue": {
+            "type": "boolean"
+          },
+          "shouldRemove": {
+            "type": "boolean"
           }
         },
         "additionalProperties": false

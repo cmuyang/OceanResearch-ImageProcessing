@@ -143,7 +143,7 @@
             tableLayoutPanelImages.RowCount = 2;
             tableLayoutPanelImages.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
             tableLayoutPanelImages.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanelImages.Size = new Size(1200, 756);
+            tableLayoutPanelImages.Size = new Size(1829, 840);
             tableLayoutPanelImages.TabIndex = 1;
             // 
             // panel1
@@ -154,16 +154,16 @@
             panel1.Location = new Point(9, 23);
             panel1.Name = "panel1";
             panel1.Padding = new Padding(4);
-            panel1.Size = new Size(231, 322);
+            panel1.Size = new Size(357, 364);
             panel1.TabIndex = 0;
             // 
             // comboChoice1
             // 
             comboChoice1.Dock = DockStyle.Bottom;
             comboChoice1.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboChoice1.Location = new Point(4, 286);
+            comboChoice1.Location = new Point(4, 328);
             comboChoice1.Name = "comboChoice1";
-            comboChoice1.Size = new Size(223, 32);
+            comboChoice1.Size = new Size(349, 32);
             comboChoice1.TabIndex = 1;
             // 
             // pictureBox1
@@ -172,7 +172,7 @@
             pictureBox1.Dock = DockStyle.Fill;
             pictureBox1.Location = new Point(4, 4);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(223, 314);
+            pictureBox1.Size = new Size(349, 356);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -183,19 +183,19 @@
             panel2.Controls.Add(comboChoice2);
             panel2.Controls.Add(pictureBox2);
             panel2.Dock = DockStyle.Fill;
-            panel2.Location = new Point(246, 23);
+            panel2.Location = new Point(372, 23);
             panel2.Name = "panel2";
             panel2.Padding = new Padding(4);
-            panel2.Size = new Size(231, 322);
+            panel2.Size = new Size(357, 364);
             panel2.TabIndex = 1;
             // 
             // comboChoice2
             // 
             comboChoice2.Dock = DockStyle.Bottom;
             comboChoice2.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboChoice2.Location = new Point(4, 286);
+            comboChoice2.Location = new Point(4, 328);
             comboChoice2.Name = "comboChoice2";
-            comboChoice2.Size = new Size(223, 32);
+            comboChoice2.Size = new Size(349, 32);
             comboChoice2.TabIndex = 1;
             // 
             // pictureBox2
@@ -204,7 +204,7 @@
             pictureBox2.Dock = DockStyle.Fill;
             pictureBox2.Location = new Point(4, 4);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(223, 314);
+            pictureBox2.Size = new Size(349, 356);
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox2.TabIndex = 0;
             pictureBox2.TabStop = false;
@@ -215,19 +215,19 @@
             panel3.Controls.Add(comboChoice3);
             panel3.Controls.Add(pictureBox3);
             panel3.Dock = DockStyle.Fill;
-            panel3.Location = new Point(483, 23);
+            panel3.Location = new Point(735, 23);
             panel3.Name = "panel3";
             panel3.Padding = new Padding(4);
-            panel3.Size = new Size(231, 322);
+            panel3.Size = new Size(357, 364);
             panel3.TabIndex = 2;
             // 
             // comboChoice3
             // 
             comboChoice3.Dock = DockStyle.Bottom;
             comboChoice3.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboChoice3.Location = new Point(4, 286);
+            comboChoice3.Location = new Point(4, 328);
             comboChoice3.Name = "comboChoice3";
-            comboChoice3.Size = new Size(223, 32);
+            comboChoice3.Size = new Size(349, 32);
             comboChoice3.TabIndex = 1;
             // 
             // pictureBox3
@@ -236,7 +236,7 @@
             pictureBox3.Dock = DockStyle.Fill;
             pictureBox3.Location = new Point(4, 4);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(223, 314);
+            pictureBox3.Size = new Size(349, 356);
             pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox3.TabIndex = 0;
             pictureBox3.TabStop = false;
@@ -247,19 +247,19 @@
             panel4.Controls.Add(comboChoice4);
             panel4.Controls.Add(pictureBox4);
             panel4.Dock = DockStyle.Fill;
-            panel4.Location = new Point(720, 23);
+            panel4.Location = new Point(1098, 23);
             panel4.Name = "panel4";
             panel4.Padding = new Padding(4);
-            panel4.Size = new Size(231, 322);
+            panel4.Size = new Size(357, 364);
             panel4.TabIndex = 3;
             // 
             // comboChoice4
             // 
             comboChoice4.Dock = DockStyle.Bottom;
             comboChoice4.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboChoice4.Location = new Point(4, 286);
+            comboChoice4.Location = new Point(4, 328);
             comboChoice4.Name = "comboChoice4";
-            comboChoice4.Size = new Size(223, 32);
+            comboChoice4.Size = new Size(349, 32);
             comboChoice4.TabIndex = 1;
             // 
             // pictureBox4
@@ -268,7 +268,7 @@
             pictureBox4.Dock = DockStyle.Fill;
             pictureBox4.Location = new Point(4, 4);
             pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(223, 314);
+            pictureBox4.Size = new Size(349, 356);
             pictureBox4.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox4.TabIndex = 0;
             pictureBox4.TabStop = false;
@@ -279,19 +279,19 @@
             panel5.Controls.Add(comboChoice5);
             panel5.Controls.Add(pictureBox5);
             panel5.Dock = DockStyle.Fill;
-            panel5.Location = new Point(957, 23);
+            panel5.Location = new Point(1461, 23);
             panel5.Name = "panel5";
             panel5.Padding = new Padding(4);
-            panel5.Size = new Size(234, 322);
+            panel5.Size = new Size(359, 364);
             panel5.TabIndex = 4;
             // 
             // comboChoice5
             // 
             comboChoice5.Dock = DockStyle.Bottom;
             comboChoice5.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboChoice5.Location = new Point(4, 286);
+            comboChoice5.Location = new Point(4, 328);
             comboChoice5.Name = "comboChoice5";
-            comboChoice5.Size = new Size(226, 32);
+            comboChoice5.Size = new Size(351, 32);
             comboChoice5.TabIndex = 1;
             // 
             // pictureBox5
@@ -300,7 +300,7 @@
             pictureBox5.Dock = DockStyle.Fill;
             pictureBox5.Location = new Point(4, 4);
             pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(226, 314);
+            pictureBox5.Size = new Size(351, 356);
             pictureBox5.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox5.TabIndex = 0;
             pictureBox5.TabStop = false;
@@ -311,19 +311,19 @@
             panel6.Controls.Add(comboChoice6);
             panel6.Controls.Add(pictureBox6);
             panel6.Dock = DockStyle.Fill;
-            panel6.Location = new Point(9, 351);
+            panel6.Location = new Point(9, 393);
             panel6.Name = "panel6";
             panel6.Padding = new Padding(4);
-            panel6.Size = new Size(231, 322);
+            panel6.Size = new Size(357, 364);
             panel6.TabIndex = 5;
             // 
             // comboChoice6
             // 
             comboChoice6.Dock = DockStyle.Bottom;
             comboChoice6.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboChoice6.Location = new Point(4, 286);
+            comboChoice6.Location = new Point(4, 328);
             comboChoice6.Name = "comboChoice6";
-            comboChoice6.Size = new Size(223, 32);
+            comboChoice6.Size = new Size(349, 32);
             comboChoice6.TabIndex = 1;
             // 
             // pictureBox6
@@ -332,7 +332,7 @@
             pictureBox6.Dock = DockStyle.Fill;
             pictureBox6.Location = new Point(4, 4);
             pictureBox6.Name = "pictureBox6";
-            pictureBox6.Size = new Size(223, 314);
+            pictureBox6.Size = new Size(349, 356);
             pictureBox6.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox6.TabIndex = 0;
             pictureBox6.TabStop = false;
@@ -343,19 +343,19 @@
             panel7.Controls.Add(comboChoice7);
             panel7.Controls.Add(pictureBox7);
             panel7.Dock = DockStyle.Fill;
-            panel7.Location = new Point(246, 351);
+            panel7.Location = new Point(372, 393);
             panel7.Name = "panel7";
             panel7.Padding = new Padding(4);
-            panel7.Size = new Size(231, 322);
+            panel7.Size = new Size(357, 364);
             panel7.TabIndex = 6;
             // 
             // comboChoice7
             // 
             comboChoice7.Dock = DockStyle.Bottom;
             comboChoice7.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboChoice7.Location = new Point(4, 286);
+            comboChoice7.Location = new Point(4, 328);
             comboChoice7.Name = "comboChoice7";
-            comboChoice7.Size = new Size(223, 32);
+            comboChoice7.Size = new Size(349, 32);
             comboChoice7.TabIndex = 1;
             // 
             // pictureBox7
@@ -364,7 +364,7 @@
             pictureBox7.Dock = DockStyle.Fill;
             pictureBox7.Location = new Point(4, 4);
             pictureBox7.Name = "pictureBox7";
-            pictureBox7.Size = new Size(223, 314);
+            pictureBox7.Size = new Size(349, 356);
             pictureBox7.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox7.TabIndex = 0;
             pictureBox7.TabStop = false;
@@ -375,19 +375,19 @@
             panel8.Controls.Add(comboChoice8);
             panel8.Controls.Add(pictureBox8);
             panel8.Dock = DockStyle.Fill;
-            panel8.Location = new Point(483, 351);
+            panel8.Location = new Point(735, 393);
             panel8.Name = "panel8";
             panel8.Padding = new Padding(4);
-            panel8.Size = new Size(231, 322);
+            panel8.Size = new Size(357, 364);
             panel8.TabIndex = 7;
             // 
             // comboChoice8
             // 
             comboChoice8.Dock = DockStyle.Bottom;
             comboChoice8.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboChoice8.Location = new Point(4, 286);
+            comboChoice8.Location = new Point(4, 328);
             comboChoice8.Name = "comboChoice8";
-            comboChoice8.Size = new Size(223, 32);
+            comboChoice8.Size = new Size(349, 32);
             comboChoice8.TabIndex = 1;
             // 
             // pictureBox8
@@ -396,7 +396,7 @@
             pictureBox8.Dock = DockStyle.Fill;
             pictureBox8.Location = new Point(4, 4);
             pictureBox8.Name = "pictureBox8";
-            pictureBox8.Size = new Size(223, 314);
+            pictureBox8.Size = new Size(349, 356);
             pictureBox8.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox8.TabIndex = 0;
             pictureBox8.TabStop = false;
@@ -407,19 +407,19 @@
             panel9.Controls.Add(comboChoice9);
             panel9.Controls.Add(pictureBox9);
             panel9.Dock = DockStyle.Fill;
-            panel9.Location = new Point(720, 351);
+            panel9.Location = new Point(1098, 393);
             panel9.Name = "panel9";
             panel9.Padding = new Padding(4);
-            panel9.Size = new Size(231, 322);
+            panel9.Size = new Size(357, 364);
             panel9.TabIndex = 8;
             // 
             // comboChoice9
             // 
             comboChoice9.Dock = DockStyle.Bottom;
             comboChoice9.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboChoice9.Location = new Point(4, 286);
+            comboChoice9.Location = new Point(4, 328);
             comboChoice9.Name = "comboChoice9";
-            comboChoice9.Size = new Size(223, 32);
+            comboChoice9.Size = new Size(349, 32);
             comboChoice9.TabIndex = 1;
             // 
             // pictureBox9
@@ -428,7 +428,7 @@
             pictureBox9.Dock = DockStyle.Fill;
             pictureBox9.Location = new Point(4, 4);
             pictureBox9.Name = "pictureBox9";
-            pictureBox9.Size = new Size(223, 314);
+            pictureBox9.Size = new Size(349, 356);
             pictureBox9.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox9.TabIndex = 0;
             pictureBox9.TabStop = false;
@@ -439,19 +439,19 @@
             panel10.Controls.Add(comboChoice10);
             panel10.Controls.Add(pictureBox10);
             panel10.Dock = DockStyle.Fill;
-            panel10.Location = new Point(957, 351);
+            panel10.Location = new Point(1461, 393);
             panel10.Name = "panel10";
             panel10.Padding = new Padding(4);
-            panel10.Size = new Size(234, 322);
+            panel10.Size = new Size(359, 364);
             panel10.TabIndex = 9;
             // 
             // comboChoice10
             // 
             comboChoice10.Dock = DockStyle.Bottom;
             comboChoice10.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboChoice10.Location = new Point(4, 286);
+            comboChoice10.Location = new Point(4, 328);
             comboChoice10.Name = "comboChoice10";
-            comboChoice10.Size = new Size(226, 32);
+            comboChoice10.Size = new Size(351, 32);
             comboChoice10.TabIndex = 1;
             // 
             // pictureBox10
@@ -460,7 +460,7 @@
             pictureBox10.Dock = DockStyle.Fill;
             pictureBox10.Location = new Point(4, 4);
             pictureBox10.Name = "pictureBox10";
-            pictureBox10.Size = new Size(226, 314);
+            pictureBox10.Size = new Size(351, 356);
             pictureBox10.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox10.TabIndex = 0;
             pictureBox10.TabStop = false;
@@ -473,10 +473,10 @@
             flowButtons.Controls.Add(btnNext);
             flowButtons.Controls.Add(lblPage);
             flowButtons.Dock = DockStyle.Bottom;
-            flowButtons.Location = new Point(0, 744);
+            flowButtons.Location = new Point(0, 828);
             flowButtons.Name = "flowButtons";
             flowButtons.Padding = new Padding(10);
-            flowButtons.Size = new Size(1200, 56);
+            flowButtons.Size = new Size(1829, 56);
             flowButtons.TabIndex = 0;
             flowButtons.WrapContents = false;
             // 
@@ -528,7 +528,7 @@
             topBar.Location = new Point(0, 0);
             topBar.Name = "topBar";
             topBar.Padding = new Padding(8);
-            topBar.Size = new Size(1200, 44);
+            topBar.Size = new Size(1829, 44);
             topBar.TabIndex = 2;
             // 
             // btnLogout
@@ -543,7 +543,7 @@
             // 
             // MainForm
             // 
-            ClientSize = new Size(1200, 800);
+            ClientSize = new Size(1829, 884);
             Controls.Add(flowButtons);
             Controls.Add(tableLayoutPanelImages);
             Controls.Add(topBar);

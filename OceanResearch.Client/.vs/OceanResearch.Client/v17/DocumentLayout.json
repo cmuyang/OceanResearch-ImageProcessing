@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.Client\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D31EE60C-CF33-488E-BD43-DDA8AEF521F3}|OceanResearch.Client.csproj|d:\\0\u5927\u56DB\\.net\\finallab\\glm\\oceanresearch.client\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D31EE60C-CF33-488E-BD43-DDA8AEF521F3}|OceanResearch.Client.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D31EE60C-CF33-488E-BD43-DDA8AEF521F3}|OceanResearch.Client.csproj|d:\\0\u5927\u56DB\\.net\\finallab\\glm\\oceanresearch.client\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D31EE60C-CF33-488E-BD43-DDA8AEF521F3}|OceanResearch.Client.csproj|solutionrelative:mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D31EE60C-CF33-488E-BD43-DDA8AEF521F3}|OceanResearch.Client.csproj|d:\\0\u5927\u56DB\\.net\\finallab\\glm\\oceanresearch.client\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D31EE60C-CF33-488E-BD43-DDA8AEF521F3}|OceanResearch.Client.csproj|D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.Client\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D31EE60C-CF33-488E-BD43-DDA8AEF521F3}|OceanResearch.Client.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D31EE60C-CF33-488E-BD43-DDA8AEF521F3}|OceanResearch.Client.csproj|d:\\0\u5927\u56DB\\.net\\finallab\\glm\\oceanresearch.client\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D31EE60C-CF33-488E-BD43-DDA8AEF521F3}|OceanResearch.Client.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D31EE60C-CF33-488E-BD43-DDA8AEF521F3}|OceanResearch.Client.csproj|D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.Client\\loginfrom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -62,23 +62,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainForm.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.Client\\MainForm.cs",
-              "RelativeDocumentMoniker": "MainForm.cs",
-              "ToolTip": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.Client\\MainForm.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "MainForm.cs [\u8BBE\u8BA1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T15:40:11.023Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
             },
             {
               "$type": "Bookmark",
@@ -90,13 +78,38 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.Client\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.Client\\MainForm.cs",
+              "RelativeToolTip": "MainForm.cs",
+              "ViewState": "AgIAAHsBAAAAAAAAAAAuwJIBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T14:25:40.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "MainForm.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.Client\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.Client\\MainForm.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "MainForm.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T15:40:11.023Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "MainForm.Designer.cs",
               "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.Client\\MainForm.Designer.cs",
               "RelativeDocumentMoniker": "MainForm.Designer.cs",
               "ToolTip": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.Client\\MainForm.Designer.cs",
               "RelativeToolTip": "MainForm.Designer.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAlwIAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAlwIkAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-21T14:28:14.18Z",
               "EditorCaption": ""
@@ -110,8 +123,7 @@
               "ToolTip": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.Client\\RegisterForm.resx",
               "RelativeToolTip": "RegisterForm.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-12-06T06:10:36.052Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-06T06:10:36.052Z"
             },
             {
               "$type": "Document",
@@ -123,8 +135,7 @@
               "RelativeToolTip": "RegisterForm.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T15:28:18.484Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-05T15:28:18.484Z"
             },
             {
               "$type": "Document",
@@ -178,19 +189,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainForm.cs",
-              "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.Client\\MainForm.cs",
-              "RelativeDocumentMoniker": "MainForm.cs",
-              "ToolTip": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.Client\\MainForm.cs",
-              "RelativeToolTip": "MainForm.cs",
-              "ViewState": "AgIAAHsBAAAAAAAAAAAuwJIBAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T14:25:40.801Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
               "Title": "LoginFrom.resx",
               "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.Client\\LoginFrom.resx",
@@ -198,8 +196,7 @@
               "ToolTip": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.Client\\LoginFrom.resx",
               "RelativeToolTip": "LoginFrom.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-11-21T14:23:52.126Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-21T14:23:52.126Z"
             },
             {
               "$type": "Document",
@@ -211,8 +208,7 @@
               "RelativeToolTip": "LoginFrom.Designer.cs",
               "ViewState": "AgIAAGAAAAAAAAAAAAAIwAcAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T14:23:48.387Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-21T14:23:48.387Z"
             },
             {
               "$type": "Document",
@@ -223,8 +219,7 @@
               "ToolTip": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.Client\\RegisterForm.cs [\u8BBE\u8BA1]",
               "RelativeToolTip": "RegisterForm.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T06:25:33.047Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
+              "WhenOpened": "2025-12-06T06:25:33.047Z"
             },
             {
               "$type": "Document",
@@ -235,8 +230,7 @@
               "ToolTip": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.Client\\LoginFrom.cs [\u8BBE\u8BA1]",
               "RelativeToolTip": "LoginFrom.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T08:19:54.343Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
+              "WhenOpened": "2025-11-21T08:19:54.343Z"
             }
           ]
         }

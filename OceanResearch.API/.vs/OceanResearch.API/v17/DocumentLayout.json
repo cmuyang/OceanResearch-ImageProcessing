@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|d:\\0\u5927\u56DB\\.net\\finallab\\glm\\oceanresearch.api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|d:\\0\u5927\u56DB\\.net\\finallab\\glm\\oceanresearch.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|d:\\0\u5927\u56DB\\.net\\finallab\\glm\\oceanresearch.api\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|solutionrelative:controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|d:\\0\u5927\u56DB\\.net\\finallab\\glm\\oceanresearch.api\\controllers\\selectionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|solutionrelative:controllers\\selectionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|d:\\0\u5927\u56DB\\.net\\finallab\\glm\\oceanresearch.api\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|solutionrelative:services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|d:\\0\u5927\u56DB\\.net\\finallab\\glm\\oceanresearch.api\\dtos\\selectiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|solutionrelative:dtos\\selectiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|d:\\0\u5927\u56DB\\.net\\finallab\\glm\\oceanresearch.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|d:\\0\u5927\u56DB\\.net\\finallab\\glm\\oceanresearch.api\\services\\ijwservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|solutionrelative:services\\ijwservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|d:\\0\u5927\u56DB\\.net\\finallab\\glm\\oceanresearch.api\\dtos\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,24 +35,52 @@
       "RelativeMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|solutionrelative:dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|d:\\0\u5927\u56DB\\.net\\finallab\\glm\\oceanresearch.api\\dtos\\imagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|solutionrelative:dtos\\imagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|d:\\0\u5927\u56DB\\.net\\finallab\\glm\\oceanresearch.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|d:\\0\u5927\u56DB\\.net\\finallab\\glm\\oceanresearch.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|d:\\0\u5927\u56DB\\.net\\finallab\\glm\\oceanresearch.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|d:\\0\u5927\u56DB\\.net\\finallab\\glm\\oceanresearch.api\\dtos\\imagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|solutionrelative:dtos\\imagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|d:\\0\u5927\u56DB\\.net\\finallab\\glm\\oceanresearch.api\\models\\imagerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|solutionrelative:models\\imagerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|d:\\0\u5927\u56DB\\.net\\finallab\\glm\\oceanresearch.api\\services\\annotationsummaryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|solutionrelative:services\\annotationsummaryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Migrations\\20251229140137_s.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20251229140137_s.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|d:\\0\u5927\u56DB\\.net\\finallab\\glm\\oceanresearch.api\\controllers\\statscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|solutionrelative:controllers\\statscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|d:\\0\u5927\u56DB\\.net\\finallab\\glm\\oceanresearch.api\\controllers\\selectionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|solutionrelative:controllers\\selectionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|d:\\0\u5927\u56DB\\.net\\finallab\\glm\\oceanresearch.api\\dtos\\imagesummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|solutionrelative:dtos\\imagesummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|d:\\0\u5927\u56DB\\.net\\finallab\\glm\\oceanresearch.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|d:\\0\u5927\u56DB\\.net\\finallab\\glm\\oceanresearch.api\\dtos\\selectiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|solutionrelative:dtos\\selectiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|d:\\0\u5927\u56DB\\.net\\finallab\\glm\\oceanresearch.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|d:\\0\u5927\u56DB\\.net\\finallab\\glm\\oceanresearch.api\\models\\imageannotationsummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|solutionrelative:models\\imageannotationsummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|d:\\0\u5927\u56DB\\.net\\finallab\\glm\\oceanresearch.api\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,24 +99,8 @@
       "RelativeMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|solutionrelative:models\\selection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|d:\\0\u5927\u56DB\\.net\\finallab\\glm\\oceanresearch.api\\models\\imagerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|solutionrelative:models\\imagerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|d:\\0\u5927\u56DB\\.net\\finallab\\glm\\oceanresearch.api\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|solutionrelative:services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|d:\\0\u5927\u56DB\\.net\\finallab\\glm\\oceanresearch.api\\wwwroot\\images\\pasted image 20250118003635.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
       "RelativeMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|solutionrelative:wwwroot\\images\\pasted image 20250118003635.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|d:\\0\u5927\u56DB\\.net\\finallab\\glm\\oceanresearch.api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|d:\\0\u5927\u56DB\\.net\\finallab\\glm\\oceanresearch.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|d:\\0\u5927\u56DB\\.net\\finallab\\glm\\oceanresearch.api\\migrations\\20251121142132_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -85,10 +109,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|d:\\0\u5927\u56DB\\.net\\finallab\\glm\\oceanresearch.api\\migrations\\20251121150455_removebase64fromimagerecord.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|solutionrelative:migrations\\20251121150455_removebase64fromimagerecord.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|d:\\0\u5927\u56DB\\.net\\finallab\\glm\\oceanresearch.api\\services\\ijwservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|solutionrelative:services\\ijwservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{66F0B0E9-271E-458F-AACC-16D7FA795EC5}|OceanResearch.API.csproj|d:\\0\u5927\u56DB\\.net\\finallab\\glm\\oceanresearch.api\\data\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -122,7 +142,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 24,
+          "SelectedChildIndex": 35,
           "Children": [
             {
               "$type": "Bookmark",
@@ -138,13 +158,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "LoginResponse.cs",
               "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\DTOs\\LoginResponse.cs",
               "RelativeDocumentMoniker": "DTOs\\LoginResponse.cs",
               "ToolTip": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\DTOs\\LoginResponse.cs",
               "RelativeToolTip": "DTOs\\LoginResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwYAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-21T14:04:34.63Z",
               "IsPinned": true,
@@ -152,7 +172,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
+              "Title": "StatsController.cs",
+              "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Controllers\\StatsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StatsController.cs",
+              "ToolTip": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Controllers\\StatsController.cs",
+              "RelativeToolTip": "Controllers\\StatsController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T14:49:09.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ImageSummaryDto.cs",
+              "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\DTOs\\ImageSummaryDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\ImageSummaryDto.cs",
+              "ToolTip": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\DTOs\\ImageSummaryDto.cs",
+              "RelativeToolTip": "DTOs\\ImageSummaryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T14:08:39.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20251229140137_s.cs",
+              "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Migrations\\20251229140137_s.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251229140137_s.cs",
+              "ToolTip": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Migrations\\20251229140137_s.cs",
+              "RelativeToolTip": "Migrations\\20251229140137_s.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T14:01:37.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AnnotationSummaryService.cs",
+              "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Services\\AnnotationSummaryService.cs",
+              "RelativeDocumentMoniker": "Services\\AnnotationSummaryService.cs",
+              "ToolTip": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Services\\AnnotationSummaryService.cs",
+              "RelativeToolTip": "Services\\AnnotationSummaryService.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAgwDQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T13:59:04.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SelectionsController.cs",
+              "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Controllers\\SelectionsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SelectionsController.cs",
+              "ToolTip": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Controllers\\SelectionsController.cs",
+              "RelativeToolTip": "Controllers\\SelectionsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T13:58:01.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ImageAnnotationSummary.cs",
+              "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Models\\ImageAnnotationSummary.cs",
+              "RelativeDocumentMoniker": "Models\\ImageAnnotationSummary.cs",
+              "ToolTip": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Models\\ImageAnnotationSummary.cs",
+              "RelativeToolTip": "Models\\ImageAnnotationSummary.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T13:49:48.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
@@ -165,7 +263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 21,
               "Title": "20251208132527_Selection.cs",
               "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Migrations\\20251208132527_Selection.cs",
               "RelativeDocumentMoniker": "Migrations\\20251208132527_Selection.cs",
@@ -173,12 +271,11 @@
               "RelativeToolTip": "Migrations\\20251208132527_Selection.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T13:25:28.018Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-08T13:25:28.018Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 22,
               "Title": "20251208124511_Modify.cs",
               "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Migrations\\20251208124511_Modify.cs",
               "RelativeDocumentMoniker": "Migrations\\20251208124511_Modify.cs",
@@ -186,12 +283,11 @@
               "RelativeToolTip": "Migrations\\20251208124511_Modify.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T12:45:12.034Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-08T12:45:12.034Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 24,
               "Title": "Pasted image 20250118003635.png",
               "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\wwwroot\\images\\Pasted image 20250118003635.png",
               "RelativeDocumentMoniker": "wwwroot\\images\\Pasted image 20250118003635.png",
@@ -202,7 +298,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 32,
               "Title": "20251207090818_AddSelectionsTable.cs",
               "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Migrations\\20251207090818_AddSelectionsTable.cs",
               "RelativeDocumentMoniker": "Migrations\\20251207090818_AddSelectionsTable.cs",
@@ -210,12 +306,11 @@
               "RelativeToolTip": "Migrations\\20251207090818_AddSelectionsTable.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T09:08:18.364Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-07T09:08:18.364Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 25,
               "Title": "20251121142132_InitialCreate.Designer.cs",
               "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Migrations\\20251121142132_InitialCreate.Designer.cs",
               "RelativeDocumentMoniker": "Migrations\\20251121142132_InitialCreate.Designer.cs",
@@ -223,12 +318,11 @@
               "RelativeToolTip": "Migrations\\20251121142132_InitialCreate.Designer.cs",
               "ViewState": "AgIAAD8AAAAAAAAAAAAEwFAAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T08:45:20.846Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-07T08:45:20.846Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 20,
               "Title": "AppDbContextModelSnapshot.cs",
               "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Migrations\\AppDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Migrations\\AppDbContextModelSnapshot.cs",
@@ -236,12 +330,11 @@
               "RelativeToolTip": "Migrations\\AppDbContextModelSnapshot.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAADgvxMAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T15:45:36.676Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T15:45:36.676Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 30,
               "Title": "OceanResearch.API.http",
               "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\OceanResearch.API.http",
               "RelativeDocumentMoniker": "OceanResearch.API.http",
@@ -249,12 +342,11 @@
               "RelativeToolTip": "OceanResearch.API.http",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-11-22T15:18:14.212Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T15:18:14.212Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 26,
               "Title": "20251121150455_RemoveBase64FromImageRecord.Designer.cs",
               "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Migrations\\20251121150455_RemoveBase64FromImageRecord.Designer.cs",
               "RelativeDocumentMoniker": "Migrations\\20251121150455_RemoveBase64FromImageRecord.Designer.cs",
@@ -262,12 +354,11 @@
               "RelativeToolTip": "Migrations\\20251121150455_RemoveBase64FromImageRecord.Designer.cs",
               "ViewState": "AgIAAFQAAAAAAAAAAAAEwG0AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T15:05:27.298Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-21T15:05:27.298Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 28,
               "Title": "20251121150455_RemoveBase64FromImageRecord.cs",
               "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Migrations\\20251121150455_RemoveBase64FromImageRecord.cs",
               "RelativeDocumentMoniker": "Migrations\\20251121150455_RemoveBase64FromImageRecord.cs",
@@ -275,12 +366,11 @@
               "RelativeToolTip": "Migrations\\20251121150455_RemoveBase64FromImageRecord.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T15:04:55.624Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-21T15:04:55.624Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 31,
               "Title": "OceanResearch.API.csproj",
               "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\OceanResearch.API.csproj",
               "RelativeDocumentMoniker": "OceanResearch.API.csproj",
@@ -288,12 +378,11 @@
               "RelativeToolTip": "OceanResearch.API.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwUAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-21T14:44:02.779Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-21T14:44:02.779Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 29,
               "Title": "20251121142132_InitialCreate.cs",
               "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Migrations\\20251121142132_InitialCreate.cs",
               "RelativeDocumentMoniker": "Migrations\\20251121142132_InitialCreate.cs",
@@ -301,25 +390,24 @@
               "RelativeToolTip": "Migrations\\20251121142132_InitialCreate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T14:21:32.357Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-21T14:21:32.357Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "ImageDto.cs",
               "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\DTOs\\ImageDto.cs",
               "RelativeDocumentMoniker": "DTOs\\ImageDto.cs",
               "ToolTip": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\DTOs\\ImageDto.cs",
               "RelativeToolTip": "DTOs\\ImageDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBkAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-21T14:18:02.792Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 17,
               "Title": "SelectionDto.cs",
               "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\DTOs\\SelectionDto.cs",
               "RelativeDocumentMoniker": "DTOs\\SelectionDto.cs",
@@ -332,46 +420,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "LoginRequest.cs",
               "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\DTOs\\LoginRequest.cs",
               "RelativeDocumentMoniker": "DTOs\\LoginRequest.cs",
               "ToolTip": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\DTOs\\LoginRequest.cs",
               "RelativeToolTip": "DTOs\\LoginRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwUAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-21T14:03:57.545Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 3,
               "Title": "JwtService.cs",
               "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Services\\JwtService.cs",
               "RelativeDocumentMoniker": "Services\\JwtService.cs",
               "ToolTip": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Services\\JwtService.cs",
               "RelativeToolTip": "Services\\JwtService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-21T14:01:15.246Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 5,
               "Title": "IJwService.cs",
               "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Services\\IJwService.cs",
               "RelativeDocumentMoniker": "Services\\IJwService.cs",
               "ToolTip": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Services\\IJwService.cs",
               "RelativeToolTip": "Services\\IJwService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-21T14:00:55.406Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 27,
               "Title": "DataSeeder.cs",
               "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Data\\DataSeeder.cs",
               "RelativeDocumentMoniker": "Data\\DataSeeder.cs",
@@ -379,90 +467,76 @@
               "RelativeToolTip": "Data\\DataSeeder.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T14:00:17.357Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-21T14:00:17.357Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SelectionsController.cs",
-              "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Controllers\\SelectionsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\SelectionsController.cs",
-              "ToolTip": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Controllers\\SelectionsController.cs",
-              "RelativeToolTip": "Controllers\\SelectionsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T13:57:41.622Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAJMAAAAAAAAAAAAgwLEAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-21T13:27:12.082Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ImagesController.cs",
               "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Controllers\\ImagesController.cs",
               "RelativeDocumentMoniker": "Controllers\\ImagesController.cs",
               "ToolTip": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Controllers\\ImagesController.cs",
               "RelativeToolTip": "Controllers\\ImagesController.cs",
-              "ViewState": "AgIAAIMAAAAAAAAAAAAQwIoAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-21T13:21:00.777Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "AuthController.cs",
               "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
               "ToolTip": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwB8AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-21T13:14:23.759Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-11-21T13:01:52.661Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 16,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
               "ToolTip": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Data\\AppDbContext.cs",
               "RelativeToolTip": "Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-21T09:39:21.986Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 23,
               "Title": "Selection.cs",
               "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Models\\Selection.cs",
               "RelativeDocumentMoniker": "Models\\Selection.cs",
@@ -470,31 +544,30 @@
               "RelativeToolTip": "Models\\Selection.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAMwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T08:42:50.833Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-21T08:42:50.833Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 10,
               "Title": "ImageRecord.cs",
               "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Models\\ImageRecord.cs",
               "RelativeDocumentMoniker": "Models\\ImageRecord.cs",
               "ToolTip": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Models\\ImageRecord.cs",
               "RelativeToolTip": "Models\\ImageRecord.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-21T08:42:32.954Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 0,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
               "ToolTip": "D:\\0\u5927\u56DB\\.net\\finallab\\GLM\\OceanResearch.API\\Models\\User.cs",
               "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-21T08:41:59.33Z",
               "EditorCaption": ""

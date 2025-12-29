@@ -45,6 +45,7 @@
         private System.Windows.Forms.Button btnLogout;
         // added: label to show current username
         private System.Windows.Forms.Label lblUsername;
+        private System.Windows.Forms.Button btnStats;
 
         protected override void Dispose(bool disposing)
         {
@@ -96,6 +97,7 @@
             topBar = new Panel();
             lblUsername = new Label();
             btnLogout = new Button();
+            btnStats = new Button();
             tableLayoutPanelImages.SuspendLayout();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -528,6 +530,7 @@
             topBar.BackColor = SystemColors.Control;
             topBar.Controls.Add(lblUsername);
             topBar.Controls.Add(btnLogout);
+            topBar.Controls.Add(btnStats);
             topBar.Dock = DockStyle.Top;
             topBar.Location = new Point(0, 0);
             topBar.Name = "topBar";
@@ -547,13 +550,23 @@
             // 
             // btnLogout
             // 
-            btnLogout.Location = new Point(236, 10);
+            btnLogout.Location = new Point(242, 3);
             btnLogout.Name = "btnLogout";
-            btnLogout.Size = new Size(80, 28);
+            btnLogout.Size = new Size(80, 38);
             btnLogout.TabIndex = 2;
             btnLogout.Text = "登出";
             btnLogout.UseVisualStyleBackColor = true;
             btnLogout.Click += btnLogout_Click;
+            // 
+            // btnStats
+            // 
+            btnStats.Location = new Point(350, 4);
+            btnStats.Name = "btnStats";
+            btnStats.Size = new Size(100, 36);
+            btnStats.TabIndex = 2;
+            btnStats.Text = "统计概览";
+            btnStats.UseVisualStyleBackColor = true;
+            btnStats.Click += btnStats_Click;
             // 
             // MainForm
             // 

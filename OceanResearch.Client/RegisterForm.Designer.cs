@@ -102,9 +102,9 @@
             // 
             // btnRegister
             // 
-            btnRegister.Location = new Point(348, 309);
+            btnRegister.Location = new Point(380, 308);
             btnRegister.Name = "btnRegister";
-            btnRegister.Size = new Size(120, 32);
+            btnRegister.Size = new Size(178, 32);
             btnRegister.TabIndex = 8;
             btnRegister.Text = "注册并登录";
             btnRegister.Click += btnRegister_Click;

@@ -97,6 +97,8 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddScoped<OceanResearch.API.Services.AnnotationSummaryService>();
+
 // 保持原样，不添加额外配置
 builder.Services.AddSwaggerGen();
 

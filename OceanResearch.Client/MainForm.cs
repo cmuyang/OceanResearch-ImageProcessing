@@ -61,7 +61,7 @@ namespace OceanReseach.Client
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 // 如果获取进度失败，从第一页开始
                 _page = 1;
@@ -435,9 +435,12 @@ namespace OceanReseach.Client
                 pb.BackColor = Color.Transparent;
             }
 
-            // 显示/隐藏√标识
-            Panel parent = pb.Parent as Panel;
-            Label lblCheck = parent.Controls.OfType<Label>().FirstOrDefault(c => c.Name == "lblCheck");
+            // 断言父控件应为 Panel；使用 null-forgiving 告知编译器此处不可为 null
+            var parent = pb.Parent as Panel;
+            System.Diagnostics.Debug.Assert(parent != null, "PictureBox 的 Parent 应为 Panel");
+            Panel parentPanel = parent!;
+
+            Label? lblCheck = parentPanel.Controls.OfType<Label>().FirstOrDefault(c => c.Name == "lblCheck");
             if (lblCheck == null)
             {
                 lblCheck = new Label();
@@ -446,7 +449,7 @@ namespace OceanReseach.Client
                 lblCheck.ForeColor = Color.Green;
                 lblCheck.Font = new Font("微软雅黑", 14, FontStyle.Bold);
                 lblCheck.Location = new Point(5, pb.Height - 25); // 图片底部
-                parent.Controls.Add(lblCheck);
+                parentPanel.Controls.Add(lblCheck);
                 lblCheck.BringToFront();
             }
             lblCheck.Text = selected ? "√" : "";
@@ -471,6 +474,12 @@ namespace OceanReseach.Client
         private void MainForm_Load_2(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnStats_Click(object sender, EventArgs e)
+        {
+            var statsForm = new StatsForm(_client);
+            statsForm.ShowDialog();
         }
     }
 

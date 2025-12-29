@@ -2,7 +2,6 @@
 using Microsoft.EntityFrameworkCore;
 using OceanResearch.API.DTOs;
 using OceanResearch.API.Data;
-using OceanResearch.API.DTOs;
 using OceanResearch.API.Services;
 using OceanResearch.API.Models;
 

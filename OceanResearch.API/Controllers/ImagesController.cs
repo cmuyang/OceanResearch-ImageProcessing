@@ -150,5 +150,97 @@ namespace OceanResearch.API.Controllers
             var b64 = Convert.ToBase64String(bytes);
             return Ok(new { id = img.Id, base64 = b64 });
         }
+
+        // 获取所有图片的标注统计情况
+        // sortBy: "recent", "clearest", "research", "remove"
+        // filter: 
+        //   "all" (默认) - 显示所有
+        //   "exclude_removed" - 排除被标记为剔除的
+        //   "only_clearest" - 只看有"最清晰"标记的
+        //   "only_research" - 只看有"研究价值"标记的
+        //   "research_not_clearest" - 有研究价值但不是最清晰的
+        //[HttpGet("stats")]
+        //[Authorize]
+        //public async Task<IActionResult> GetAnnotationStats(
+        //    [FromQuery] string sortBy = "recent",
+        //    [FromQuery] string filter = "all",
+        //    [FromQuery] int page = 1,
+        //    [FromQuery] int pageSize = 20)
+        //{
+        //    var query = _db.ImageAnnotationSummaries.AsQueryable();
+
+        //    // ---------------------------------------------------------
+        //    // 1. 执行筛选逻辑 (Filtering)
+        //    // ---------------------------------------------------------
+        //    switch (filter.ToLower())
+        //    {
+        //        case "exclude_removed":
+        //            // 排除掉任何有一个人标记为"应剔除"的图片 (或者你可以设定阈值，比如 > 2 人)
+        //            query = query.Where(s => s.RemoveCount == 0);
+        //            break;
+
+        //        case "only_clearest":
+        //            // 至少有一人标记为最清晰
+        //            query = query.Where(s => s.ClearestCount > 0);
+        //            break;
+
+        //        case "only_research":
+        //            // 至少有一人标记为有研究价值
+        //            query = query.Where(s => s.ResearchValueCount > 0);
+        //            break;
+
+        //        case "research_not_clearest":
+        //            // 复合逻辑：有研究价值 AND (没人觉得是最清晰 OR 最清晰票数极低)
+        //            query = query.Where(s => s.ResearchValueCount > 0 && s.ClearestCount == 0);
+        //            break;
+
+        //        case "all":
+        //        default:
+        //            // 不做过滤
+        //            break;
+        //    }
+
+        //    // ---------------------------------------------------------
+        //    // 2. 执行排序逻辑 (Sorting)
+        //    // ---------------------------------------------------------
+        //    query = sortBy.ToLower() switch
+        //    {
+        //        "clearest" => query.OrderByDescending(s => s.ClearestCount).ThenByDescending(s => s.LastUpdated),
+        //        "research" => query.OrderByDescending(s => s.ResearchValueCount).ThenByDescending(s => s.LastUpdated),
+        //        "remove" => query.OrderByDescending(s => s.RemoveCount).ThenByDescending(s => s.LastUpdated),
+        //        _ => query.OrderByDescending(s => s.LastUpdated) // 默认按时间
+        //    };
+
+        //    // ---------------------------------------------------------
+        //    // 3. 分页与返回 (Pagination)
+        //    // ---------------------------------------------------------
+        //    var total = await query.CountAsync();
+            
+        //    var summaries = await query
+        //        .Skip((page - 1) * pageSize)
+        //        .Take(pageSize)
+        //        .ToListAsync();
+
+        //    var dtos = summaries.Select(s => new ImageSummaryDto
+        //    {
+        //        Metadata = s.Metadata,
+        //        Url = $"/uieb-instances/{s.Metadata}",
+        //        TotalAnnotations = s.TotalAnnotations,
+        //        ClearestCount = s.ClearestCount,
+        //        ResearchValueCount = s.ResearchValueCount,
+        //        RemoveCount = s.RemoveCount,
+        //        LastUpdated = s.LastUpdated
+        //    }).ToList();
+
+        //    return Ok(new
+        //    {
+        //        TotalCount = total,
+        //        Filter = filter,
+        //        SortBy = sortBy,
+        //        Page = page,
+        //        PageSize = pageSize,
+        //        Items = dtos
+        //    });
+        //}
     }
 }

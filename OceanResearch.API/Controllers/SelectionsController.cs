@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using OceanResearch.API.Data;
 using OceanResearch.API.DTOs;
 using OceanResearch.API.Models;
+using OceanResearch.API.Services; // 引用 Service 命名空间
 using System.Security.Claims;
 
 namespace OceanResearch.API.Controllers
@@ -14,29 +15,15 @@ namespace OceanResearch.API.Controllers
     public class SelectionsController : ControllerBase
     {
         private readonly AppDbContext _db;
-        public SelectionsController(AppDbContext db) { _db = db; }
+        private readonly AnnotationSummaryService _summaryService; // 声明服务字段
 
-        //[HttpPost]
-        //public async Task<IActionResult> SubmitSelection([FromBody] SelectionDto dto)
-        //{
-        //    // 从JWT令牌中获取用户ID声明（NameIdentifier通常包含用户ID）
-        //    var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-        //    if (string.IsNullOrEmpty(userIdClaim)) return Unauthorized();
-        //    // 将用户ID字符串转换为整数
-        //    var uid = int.Parse(userIdClaim);
-        //    // 创建新的选择记录对象
-        //    var selection = new Selection
-        //    {
-        //        UserId = uid,
-        //        ImageId = dto.ImageId,
-        //        Choice = dto.Choice
-        //    };
-        //    //将新选择增加到数据库
-        //    _db.Selections.Add(selection);
-        //    //保存更改到数据库
-        //    await _db.SaveChangesAsync();
-        //    return Ok();
-        //}
+        // 在构造函数中注入 AnnotationSummaryService
+        public SelectionsController(AppDbContext db, AnnotationSummaryService summaryService) 
+        { 
+            _db = db; 
+            _summaryService = summaryService;
+        }
+
         // 接收批量提交： [{ ImageId, Metadata, IsClearest, HasResearchValue, ShouldRemove }, ... ]
         [HttpPost("bulk")]
         [Authorize]
@@ -148,7 +135,23 @@ namespace OceanResearch.API.Controllers
                 }
             }
 
+            // 先保存所有 Selections 和 Progress 的更改
             await _db.SaveChangesAsync();
+
+            // 收集所有受影响的 Metadata，并在保存后更新聚合表
+            // 注意：这里收集 items 中的 Metadata，以及可能被清除"最清晰"标记的图片（如果它们不在 items 中）
+            // 简单起见，我们主要更新 items 中涉及的图片，因为清除操作也是针对同一页（同一组文件名）的
+            var affectedMetadata = items
+                .Where(i => !string.IsNullOrEmpty(i.Metadata))
+                .Select(i => i.Metadata!)
+                .Distinct()
+                .ToList();
+
+            if (affectedMetadata.Any())
+            {
+                await _summaryService.UpdateSummariesAsync(affectedMetadata);
+            }
+
             return Ok();
         }
     }

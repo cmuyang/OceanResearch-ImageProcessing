@@ -7,8 +7,8 @@ namespace OceanResearch.Client
         /// <summary>
         ///  The main entry point for the application.
         /// </summary>
-        public static string AuthToken;
-        public static string CurrentUser; 
+        public static string? AuthToken;
+        public static string? CurrentUser; 
 
         [STAThread]
         static void Main()

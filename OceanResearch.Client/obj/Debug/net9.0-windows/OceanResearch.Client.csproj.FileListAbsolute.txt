@@ -17,3 +17,4 @@ D:\0大四\.net\finallab\GLM\OceanResearch.Client\obj\Debug\net9.0-windows\Ocean
 D:\0大四\.net\finallab\GLM\OceanResearch.Client\obj\Debug\net9.0-windows\ref\OceanResearch.Client.dll
 D:\0大四\.net\finallab\GLM\OceanResearch.Client\obj\Debug\net9.0-windows\OceanReseach.Client.RegisterForm.resources
 D:\0大四\.net\finallab\GLM\OceanResearch.Client\obj\Debug\net9.0-windows\OceanResearch.Client.sourcelink.json
+D:\0大四\.net\finallab\GLM\OceanResearch.Client\obj\Debug\net9.0-windows\OceanReseach.Client.StatsForm.resources

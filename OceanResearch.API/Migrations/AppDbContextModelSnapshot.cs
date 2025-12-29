@@ -17,6 +17,39 @@ namespace OceanResearch.API.Migrations
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "9.0.11");
 
+            modelBuilder.Entity("OceanResearch.API.Models.ImageAnnotationSummary", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("ClearestCount")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<DateTime>("LastUpdated")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Metadata")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("RemoveCount")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("ResearchValueCount")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("TotalAnnotations")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("Metadata")
+                        .IsUnique();
+
+                    b.ToTable("ImageAnnotationSummaries", (string)null);
+                });
+
             modelBuilder.Entity("OceanResearch.API.Models.ImageRecord", b =>
                 {
                     b.Property<int>("Id")
@@ -40,7 +73,7 @@ namespace OceanResearch.API.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Images");
+                    b.ToTable("Images", (string)null);
                 });
 
             modelBuilder.Entity("OceanResearch.API.Models.Selection", b =>
@@ -72,7 +105,7 @@ namespace OceanResearch.API.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Selections");
+                    b.ToTable("Selections", (string)null);
                 });
 
             modelBuilder.Entity("OceanResearch.API.Models.User", b =>
@@ -97,7 +130,7 @@ namespace OceanResearch.API.Migrations
                     b.HasIndex("Username")
                         .IsUnique();
 
-                    b.ToTable("Users");
+                    b.ToTable("Users", (string)null);
                 });
 
             modelBuilder.Entity("OceanResearch.API.Models.UserProgress", b =>
@@ -117,7 +150,7 @@ namespace OceanResearch.API.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("UserProgresses");
+                    b.ToTable("UserProgresses", (string)null);
                 });
 #pragma warning restore 612, 618
         }

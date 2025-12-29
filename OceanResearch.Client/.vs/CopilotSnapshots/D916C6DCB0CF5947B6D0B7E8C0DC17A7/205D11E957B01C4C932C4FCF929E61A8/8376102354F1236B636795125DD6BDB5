@@ -43,8 +43,6 @@
         private System.Windows.Forms.Label lblPage;
         private System.Windows.Forms.Panel topBar;
         private System.Windows.Forms.Button btnLogout;
-        // added: label to show current username
-        private System.Windows.Forms.Label lblUsername;
 
         protected override void Dispose(bool disposing)
         {
@@ -94,7 +92,6 @@
             btnNext = new Button();
             lblPage = new Label();
             topBar = new Panel();
-            lblUsername = new Label();
             btnLogout = new Button();
             tableLayoutPanelImages.SuspendLayout();
             panel1.SuspendLayout();
@@ -526,7 +523,6 @@
             // topBar
             // 
             topBar.BackColor = SystemColors.Control;
-            topBar.Controls.Add(lblUsername);
             topBar.Controls.Add(btnLogout);
             topBar.Dock = DockStyle.Top;
             topBar.Location = new Point(0, 0);
@@ -535,19 +531,9 @@
             topBar.Size = new Size(1829, 44);
             topBar.TabIndex = 2;
             // 
-            // lblUsername
-            // 
-            lblUsername.AutoSize = true;
-            lblUsername.Font = new Font("微软雅黑", 9F);
-            lblUsername.Location = new Point(8, 10);
-            lblUsername.Name = "lblUsername";
-            lblUsername.Size = new Size(145, 24);
-            lblUsername.TabIndex = 1;
-            lblUsername.Text = "当前用户: 未登录";
-            // 
             // btnLogout
             // 
-            btnLogout.Location = new Point(236, 10);
+            btnLogout.Location = new Point(8, 8);
             btnLogout.Name = "btnLogout";
             btnLogout.Size = new Size(80, 28);
             btnLogout.TabIndex = 2;
@@ -590,7 +576,6 @@
             flowButtons.ResumeLayout(false);
             flowButtons.PerformLayout();
             topBar.ResumeLayout(false);
-            topBar.PerformLayout();
             ResumeLayout(false);
         }
     }

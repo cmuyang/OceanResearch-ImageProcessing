@@ -44,6 +44,7 @@ namespace OceanReseach.Client
             // 先获取用户进度
             await LoadProgressAsync();
             await LoadPageAsync();
+            lblUsername.Text = $"当前用户: {Program.CurrentUser}";
         }
 
         private async Task LoadProgressAsync()
@@ -454,7 +455,7 @@ namespace OceanReseach.Client
         {
             // 清除 Token 或登录状态
             Program.AuthToken = null;
-
+            Program.CurrentUser = null;
             // 返回登录窗口
             LoginForm login = new LoginForm();
             login.Show();

@@ -45,7 +45,7 @@ namespace OceanReseach.Client
                     MessageBox.Show("登录返回解析失败", "登录", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
-
+                Program.CurrentUser = txtUser.Text;
                 LoginResult = body;
                 // 打开主窗体
                 Program.AuthToken = body.Token;
@@ -68,6 +68,11 @@ namespace OceanReseach.Client
         {
             var reg = new RegisterForm();
             reg.ShowDialog();
+        }
+
+        private void txtUser_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 

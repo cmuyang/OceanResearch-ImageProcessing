@@ -94,8 +94,9 @@
             btnNext = new Button();
             lblPage = new Label();
             topBar = new Panel();
-            lblUsername = new Label();
             btnLogout = new Button();
+            // create username label
+            lblUsername = new Label();
             tableLayoutPanelImages.SuspendLayout();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -526,6 +527,7 @@
             // topBar
             // 
             topBar.BackColor = SystemColors.Control;
+            // add username label and logout button to topBar
             topBar.Controls.Add(lblUsername);
             topBar.Controls.Add(btnLogout);
             topBar.Dock = DockStyle.Top;
@@ -538,16 +540,17 @@
             // lblUsername
             // 
             lblUsername.AutoSize = true;
-            lblUsername.Font = new Font("微软雅黑", 9F);
             lblUsername.Location = new Point(8, 10);
             lblUsername.Name = "lblUsername";
-            lblUsername.Size = new Size(145, 24);
+            lblUsername.Size = new Size(120, 24);
             lblUsername.TabIndex = 1;
-            lblUsername.Text = "当前用户: 未登录";
+            //lblUsername.Text = "当前用户: 未登录";
+            lblUsername.Text = $"当前用户: {username}";
+            lblUsername.Font = new Font("Microsoft YaHei", 9F, FontStyle.Regular, GraphicsUnit.Point);
             // 
             // btnLogout
             // 
-            btnLogout.Location = new Point(236, 10);
+            btnLogout.Location = new Point(150, 8);
             btnLogout.Name = "btnLogout";
             btnLogout.Size = new Size(80, 28);
             btnLogout.TabIndex = 2;

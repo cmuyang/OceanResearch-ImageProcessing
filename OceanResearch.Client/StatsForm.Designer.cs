@@ -58,7 +58,7 @@ namespace OceanReseach.Client
             // 
             // btnExportCsv
             // 
-            btnExportCsv.Location = new Point(993, 14);
+            btnExportCsv.Location = new Point(1122, 14);
             btnExportCsv.Name = "btnExportCsv";
             btnExportCsv.Size = new Size(120, 34);
             btnExportCsv.TabIndex = 0;
@@ -67,9 +67,9 @@ namespace OceanReseach.Client
             // 
             // btnQuery
             // 
-            btnQuery.Location = new Point(854, 16);
+            btnQuery.Location = new Point(924, 12);
             btnQuery.Name = "btnQuery";
-            btnQuery.Size = new Size(80, 30);
+            btnQuery.Size = new Size(133, 36);
             btnQuery.TabIndex = 1;
             btnQuery.Text = "≤È—Ø";
             btnQuery.Click += btnQuery_Click;
@@ -94,7 +94,7 @@ namespace OceanReseach.Client
             // cmbFilter
             // 
             cmbFilter.DropDownStyle = ComboBoxStyle.DropDownList;
-            cmbFilter.Location = new Point(84, 16);
+            cmbFilter.Location = new Point(110, 16);
             cmbFilter.Name = "cmbFilter";
             cmbFilter.Size = new Size(266, 32);
             cmbFilter.TabIndex = 4;
@@ -102,7 +102,7 @@ namespace OceanReseach.Client
             // lblFilter
             // 
             lblFilter.AutoSize = true;
-            lblFilter.Location = new Point(12, 20);
+            lblFilter.Location = new Point(38, 20);
             lblFilter.Name = "lblFilter";
             lblFilter.Size = new Size(50, 24);
             lblFilter.TabIndex = 5;
@@ -145,7 +145,7 @@ namespace OceanReseach.Client
             // lblPageInfo
             // 
             lblPageInfo.AutoSize = true;
-            lblPageInfo.Location = new Point(113, 15);
+            lblPageInfo.Location = new Point(113, 13);
             lblPageInfo.Name = "lblPageInfo";
             lblPageInfo.Size = new Size(67, 24);
             lblPageInfo.TabIndex = 1;

@@ -30,6 +30,7 @@
             txtPassConfirm = new TextBox();
             lblPassConfirm = new Label();
             btnRegister = new Button();
+            btnBackToLogin = new Button();
             SuspendLayout();
             // 
             // txtApiBase
@@ -102,16 +103,26 @@
             // 
             // btnRegister
             // 
-            btnRegister.Location = new Point(380, 308);
+            btnRegister.Location = new Point(430, 308);
             btnRegister.Name = "btnRegister";
-            btnRegister.Size = new Size(178, 32);
+            btnRegister.Size = new Size(128, 32);
             btnRegister.TabIndex = 8;
             btnRegister.Text = "注册并登录";
             btnRegister.Click += btnRegister_Click;
             // 
+            // btnBackToLogin
+            // 
+            btnBackToLogin.Location = new Point(268, 308);
+            btnBackToLogin.Name = "btnBackToLogin";
+            btnBackToLogin.Size = new Size(141, 32);
+            btnBackToLogin.TabIndex = 9;
+            btnBackToLogin.Text = "返回登录";
+            btnBackToLogin.Click += btnBackToLogin_Click;
+            // 
             // RegisterForm
             // 
             ClientSize = new Size(902, 487);
+            Controls.Add(btnBackToLogin);
             Controls.Add(lblApi);
             Controls.Add(txtApiBase);
             Controls.Add(lblUser);
@@ -122,10 +133,12 @@
             Controls.Add(txtPassConfirm);
             Controls.Add(btnRegister);
             FormBorderStyle = FormBorderStyle.FixedDialog;
+            Location = new Point(50, 100);
             Name = "RegisterForm";
             Text = "注册";
             ResumeLayout(false);
             PerformLayout();
         }
+        private Button btnBackToLogin;
     }
 }

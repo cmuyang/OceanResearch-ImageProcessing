@@ -25,8 +25,6 @@
             btnLogin = new Button();
             label1 = new Label();
             label2 = new Label();
-            txtApiBase = new TextBox();
-            label3 = new Label();
             button1 = new Button();
             SuspendLayout();
             // 
@@ -74,22 +72,6 @@
             label2.TabIndex = 5;
             label2.Text = "密码：";
             // 
-            // txtApiBase
-            // 
-            txtApiBase.Location = new Point(401, 138);
-            txtApiBase.Name = "txtApiBase";
-            txtApiBase.Size = new Size(220, 30);
-            txtApiBase.TabIndex = 4;
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Location = new Point(283, 137);
-            label3.Name = "label3";
-            label3.Size = new Size(100, 24);
-            label3.TabIndex = 0;
-            label3.Text = "后端地址：";
-            // 
             // button1
             // 
             button1.Location = new Point(488, 293);
@@ -104,14 +86,13 @@
             // 
             ClientSize = new Size(944, 532);
             Controls.Add(button1);
-            Controls.Add(label3);
-            Controls.Add(txtApiBase);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(btnLogin);
             Controls.Add(txtPass);
             Controls.Add(txtUser);
             FormBorderStyle = FormBorderStyle.FixedDialog;
+            Location = new Point(200, 500);
             Name = "LoginForm";
             Text = "OceanResearch 登录";
             ResumeLayout(false);

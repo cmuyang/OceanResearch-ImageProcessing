@@ -40,6 +40,9 @@ namespace OceanReseach.Client
         public StatsForm(HttpClient client)
         {
             InitializeComponent();
+            // 设置窗口启动位置为屏幕中央
+            this.StartPosition = FormStartPosition.CenterScreen;
+
             _client = client;
 
             // 初始化下拉框

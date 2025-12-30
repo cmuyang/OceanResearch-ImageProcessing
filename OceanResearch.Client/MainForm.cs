@@ -119,10 +119,10 @@ namespace OceanReseach.Client
             {
                 var combo = combos[i];
                 var panel = panels[i];
-                
+
                 // 隐藏不再使用的下拉框
                 combo.Visible = false;
-                
+
                 // 清除旧的动态控件
                 var oldControls = panel.Controls.OfType<CheckBox>().ToList();
                 foreach (var ctrl in oldControls)
@@ -167,7 +167,7 @@ namespace OceanReseach.Client
                 {
                     var img = _currentImages[i];
                     pictureBoxes[i].Tag = img;
-                    
+
                     // 设置"最清晰"标记
                     if (img.IsClearest)
                     {
@@ -362,35 +362,6 @@ namespace OceanReseach.Client
             }
         }
 
-        //private void pictureBox_Click(object sender, EventArgs e)
-        //{
-        //    //if (sender is PictureBox pb && pb.Tag is ImageDto dto && pb.Image != null)
-        //    //{
-        //    //    using var dlg = new Form
-        //    //    {
-        //    //        Text = dto.FileName,
-        //    //        StartPosition = FormStartPosition.CenterParent,
-        //    //        ClientSize = new Size(900, 600)
-        //    //    };
-        //    //    var big = new PictureBox
-        //    //    {
-        //    //        Dock = DockStyle.Fill,
-        //    //        Image = (Image)pb.Image.Clone(),
-        //    //        SizeMode = PictureBoxSizeMode.Zoom
-        //    //    };
-        //    //    dlg.Controls.Add(big);
-        //    //    dlg.ShowDialog();
-        //    //    big.Image.Dispose();
-        //    //}
-        //    PictureBox pb = sender as PictureBox;
-        //    if (pb == null) return;
-
-        //    int index = int.Parse(pb.Name.Replace("pictureBox", "")); // 获取图片编号
-        //    imageSelections[index] = !imageSelections[index]; // 切换选中状态
-
-        //    // 更新边框和标识
-        //    UpdatePictureBoxVisual(pb, imageSelections[index]);
-        //}
         private void pictureBox_Click(object sender, EventArgs e)
         {
             if (sender is not PictureBox pb) return;

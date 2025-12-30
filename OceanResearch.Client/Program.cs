@@ -16,7 +16,11 @@ namespace OceanResearch.Client
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new LoginForm());
+            
+            // 修改启动方式：不直接 Run(new LoginForm())，而是使用 ApplicationContext
+            // 这样关闭主窗体（LoginForm）时不会直接退出整个应用程序
+            var context = new ApplicationContext(new LoginForm());
+            Application.Run(context);
         }
     }
 }

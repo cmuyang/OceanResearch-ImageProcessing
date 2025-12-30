@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OceanResearch.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed2d52a979ff2a6afe9fef0a09974298c80d7696")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d7f94daeacc327146d578fed142ceb359b577b09")]
 [assembly: System.Reflection.AssemblyProductAttribute("OceanResearch.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OceanResearch.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
